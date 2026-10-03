@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "command_wand",
+  "version": "${version}",
+  "name": "command_wand",
+  "description": "手持木棍按 R 打开扇形技能轮盘，N 打开配置界面。右键释放技能，左键仍是普通木棍。",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "command.wand.CommandWandClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
